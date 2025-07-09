@@ -1,4 +1,4 @@
-FROM private-registry.iudx.org.in/gdi-sandbox:latest
+FROM private-registry.iudx.org.in/gdi-sandbox:1.0.0
 
 COPY . ${HOME}
 USER root
